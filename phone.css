@@ -1,0 +1,76 @@
+/* Navbar Section */
+#navbar div .webnm {
+    display: none;
+}
+
+#navbar {
+    flex-direction: column;
+}
+
+#navbar::before{
+    height: 100%;
+}
+@media screen and (max-width:618px){
+    #navbar::before{
+        height: 136%;
+    }
+}
+#logo a img {
+    height: 53px;
+    margin: 0px 4px;
+}
+#navbar ul{
+    margin-left: 0px;
+    justify-content: center;
+}
+#navbar ul li{
+    margin-left: 2px;
+}
+#navbar ul li{
+    margin-left: 2px;
+}
+#navbar ul li a{
+    padding: 1px 12px;
+}
+
+/* Home Section */
+
+#home{
+    height: 486px;
+}
+@media screen and (max-width:482px){
+    #home{
+        height: 508px;
+    }
+    #home::before{
+        height: 590px;
+    }
+}
+/* Services Section */
+#services{
+    flex-direction: column;
+}
+#services .box img {
+    height: 107px;
+}
+
+/* Client Section */
+#client{
+    flex-wrap: wrap;
+}
+.client-item{
+    padding: 16px;
+}
+#client img {
+    height: 106px;
+}
+/* Contact Section */
+
+
+/* Utility Class */
+.h-primary{
+    font-size: 2.3rem;
+}
+.h-secondary{
+    font-size: 1rem;
+}
